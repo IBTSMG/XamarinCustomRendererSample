@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="XamarinCustomRendererSamples.HomePage">
+	<ContentPage.Content>
+		<StackLayout Margin="10,30,10,10">
+			<Label Text="Xamarin Custom Renderer Samples"></Label>
+
+			<Entry Placeholder="Entry (default)" ></Entry>
+			
+			<Entry Placeholder="Numeric entry with done button"  Keyboard="Numeric" ></Entry>
+
+
+			<Label Text="SearchBar Sample"></Label>
+			<SearchBar Placeholder="SearchBar (default)"></SearchBar>
+			<SearchBar Placeholder="with Cancel button (when is empty)"></SearchBar>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
